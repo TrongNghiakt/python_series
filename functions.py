@@ -19,3 +19,9 @@ print(text.upper())
 print(number.bit_length())
 # This will raise an AttributeError since 'str' object has no attribute 'bit_length'
 print(text.bit_length())
+
+
+# Enumerate function
+my_list = [100, 200, 300, 400, 500]
+for i, x in enumerate(my_list):
+    print(x)
