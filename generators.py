@@ -46,9 +46,15 @@ def people_generator(num_people):
         yield person
 
 
+# t1 = time.perf_counter()
+# people = people_list(1000000)
+# t2 = time.perf_counter()
+
+
 t1 = time.perf_counter()
-people = people_list(1000000)
+people = people_generator(1000000)
 t2 = time.perf_counter()
+
 
 print("Memory (After): {} MiB".format(mem_profile.memory_usage()[0]))
 print("Took {} Seconds".format(t2-t1))
