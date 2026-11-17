@@ -1,0 +1,12 @@
+DEBUG:root:Add: 20 + 10 = 30
+DEBUG:root:Subtract: 20 - 10 = 10
+DEBUG:root:Multiply: 20 * 10 = 200
+DEBUG:root:Divide: 20 / 10 = 2.0
+DEBUG:root:Add: 20 + 5 = 25
+DEBUG:root:Subtract: 20 - 5 = 15
+DEBUG:root:Multiply: 20 * 5 = 100
+DEBUG:root:Divide: 20 / 5 = 4.0
+2026-11-17 08:21:48,168 - DEBUG - Add: 20 + 5 = 25
+2026-11-17 08:21:48,168 - DEBUG - Subtract: 20 - 5 = 15
+2026-11-17 08:21:48,168 - DEBUG - Multiply: 20 * 5 = 100
+2026-11-17 08:21:48,168 - DEBUG - Divide: 20 / 5 = 4.0
